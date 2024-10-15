@@ -1,7 +1,9 @@
 {
   "name": "bloomfoods-commerce",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "description": "Ecommerce application built with the MERN stack",
+  "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
@@ -15,7 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
