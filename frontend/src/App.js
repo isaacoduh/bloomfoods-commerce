@@ -7,6 +7,7 @@ import { logout } from "./slices/authSlice";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const App = () => {
   return (
     <>
       <ToastContainer />
-      {/* Header */}
+      <Header />
       <main className="py-3">
         <Container>
           <Outlet />

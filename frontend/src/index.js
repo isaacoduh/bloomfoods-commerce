@@ -24,7 +24,7 @@ root.render(
   <React.StrictMode>
     <HelmetProvider>
       <Provider store={store}>
-        <App />
+        <RouterProvider router={router} />
       </Provider>
     </HelmetProvider>
   </React.StrictMode>
